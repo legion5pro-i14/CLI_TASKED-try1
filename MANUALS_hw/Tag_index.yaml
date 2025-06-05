@@ -1,0 +1,18 @@
+security:
+  description: "Security hardening, firewall, firmware, access controls"
+  files: [common-configs.md, archer-a6.md, tl-er6020.md, optixstar-eg8145x6-10.md]
+port_forwarding:
+  description: "NAT, Virtual Servers, DMZ, DDNS"
+  files: [common-configs.md, archer-a6.md, tl-er6020.md]
+vpn:
+  description: "OpenVPN, IPSec, remote access"
+  files: [common-configs.md, archer-a6.md, tl-er6020.md]
+dhcp:
+  description: "DHCP scope, reservations, server"
+  files: [common-configs.md, archer-a6.md, tl-er6020.md]
+monitoring:
+  description: "Logs, health checks, maintenance"
+  files: [common-configs.md, archer-a6.md, tl-er6020.md, optixstar-eg8145x6-10.md]
+dual_homed_server:
+  description: "NIC setup, static IP, policy routing"
+  files: [server-integration.md, tl-er6020.md]
